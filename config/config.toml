@@ -1,0 +1,23 @@
+[Postgres]
+    Addr            = "0.0.0.0:5432"
+    Network         = "tcp"
+    User            = "postgres"
+    Password        = "secret"
+    Database        = "postgres"
+    ApplicationName = "test_api"
+    DialTimeout     = 5000000000
+    ReadTimeout     = 5000000000
+    WriteTimeout    = 5000000000
+    MaxRetries      = 3
+    MinRetryBackoff = 1000000000
+    MaxRetryBackoff = 5000000000
+    PoolSize        = 5
+    MinIdleConns    = 2
+    MaxConnAge      = 60000000000
+    PoolTimeout     = 5000000000
+    IdleTimeout     = 5000000000
+    RefreshAwait    = 2000000000
+    RefreshCheck    = 2000000000
+
+[BuildingsCache]
+    SIze = 10
